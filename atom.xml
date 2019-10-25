@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmkxcs.github.io</id>
     <title>Gridea</title>
-    <updated>2019-10-25T11:00:00.215Z</updated>
+    <updated>2019-10-25T11:05:45.207Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmkxcs.github.io"/>
     <link rel="self" href="https://cmkxcs.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://cmkxcs.github.io/images/avatar.png</logo>
     <icon>https://cmkxcs.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[aaaa]]></title>
+        <id>https://cmkxcs.github.io/post/archives</id>
+        <link href="https://cmkxcs.github.io/post/archives">
+        </link>
+        <updated>2019-10-25T11:04:48.000Z</updated>
+        <content type="html"><![CDATA[<p>摆脱贫困生活</p>
+<p>leave/quit a life of poverty</p>
+<p>保证普通工人的基本生活</p>
+<p>guarantee basic livelihood of ordinary workers</p>
+<p>创造生活</p>
+<p>create a life</p>
+<p>丰富/改善生活</p>
+<p>enrich/ameliorate life</p>
+<p>过单身生活</p>
+<p>live singly</p>
+<p>过温饱生活</p>
+<p>secure a life with enough food and clothing</p>
+<p>过小康生活</p>
+<p>lead a fairly comfortable life</p>
+<p>过着奢侈/舒适的生活</p>
+<p>live a luxurious/comfortable life</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不知名不靠海农业大学！]]></title>
         <id>https://cmkxcs.github.io/post/bu-zhi-ming-bu-kao-hai-nong-ye-da-xue</id>
