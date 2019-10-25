@@ -19,7 +19,7 @@
      <div class="header">
       <div class="logo_title">
 		  
-        <div class="title animated fadeInDown"><img src="https://cmkxcs.github.io/images/avatar.png?v=1572008377693"/>
+        <div class="title animated fadeInDown"><img src="https://cmkxcs.github.io/images/avatar.png?v=1572016576921"/>
 
           <h1 title="小崔小破站" class="weaklink"><a href="/">小崔小破站</a>
 
@@ -213,6 +213,32 @@
 
 <div class="doc_comments">
 
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+			  
+          
+        
 </div>
 
 
