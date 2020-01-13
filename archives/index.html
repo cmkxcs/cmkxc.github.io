@@ -1,169 +1,237 @@
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     
-<meta charset="utf-8" >
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- 百度验证 -->
+<meta name="baidu-site-verification" content="1IkquSGR9Z"/>
 
 <title>小崔小破站</title>
-<meta name="description" content="温故而知新">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<meta name="description" content="温故而知新"/>
+<meta name="keywords" content="温故而知新"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://cmkxcs.github.io/favicon.ico?v=1578911073099">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://cmkxcs.github.io/favicon.ico">
+
 <link rel="stylesheet" href="https://cmkxcs.github.io/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://cmkxcs.github.io/media/scripts/_vendors/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
 
+<link crossorigin="anonymous" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" href="https://lib.baomitu.com/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
 
+</head>
+<body>
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://cmkxcs.github.io">
-        <img class="avatar" src="https://cmkxcs.github.io/images/avatar.png?v=1578911073099" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://cmkxcs.github.io">
-        <h1 class="site-title">小崔小破站</h1>
-      </a>
+<div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://cmkxcs.github.io/media/images/avatar.png" alt="小崔小破站" class="img-responsive">
+        </figure>
+        <h3 class="heading">ABOUT ME</h3>
+        <h2>小崔小破站</h2>
+        <p>温故而知新</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="https://weibo.com/5657645357/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank">
+                            <i class="fab fa-weibo"></i>
+                        </a>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a href="/post/life" class="menu purple-link">
-            生活
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-        <div class="content-container">
-          
-          
-
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
-      
-        <article class="post">
-          <a href="https://cmkxcs.github.io/post">
-            <h2 class="post-title">
-              💪
-              <small>2019-11-01</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://cmkxcs.github.io/post/ru-he-geng-you-xiu">
-            <h2 class="post-title">
-              如何更优秀
-              <small>2019-10-30</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang">
-            <h2 class="post-title">
-              叫醒我的不是闹钟，是梦想
-              <small>2019-10-28</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
-
-
+    <div class="fh5co-menu">
+        <div class="fh5co-box">
+            <h3 class="heading">搜索</h3>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" id="bdcsMain" class="form-control" placeholder="输入关键字">
+<!--                    <button type="submit" class="btn btn-sm btn-warning" style="margin-top: 6px; width: 100%">点击搜索</button>-->
+                </div>
+            </form>
         </div>
+        <div class="fh5co-box">
+            <h3 class="heading">标签</h3>
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+</div>
 
-        <div class="site-footer">
-  <div class="slogan">温故而知新</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://cmkxcs.github.io/atom.xml" target="_blank">RSS</a>
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                         >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
+                         >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                         >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                         >
+                            关于
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/life"
+                         >
+                            生活
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://cmkxcs.github.io">小崔小破站 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 col-xs-offset-0 text-center content-article">
+
+                <div class="row">
+
+                    
+                    <h2 class="text-center archives-title">
+                        <i class="fa fa-archive"></i> 文章归档
+                    </h2>
+
+                    
+                    <div class="row post-group">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-center post-year tag-title">
+                            <h3>2019</h3>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-left">
+                            <ul class="post-list">
+                            
+                                
+                                <li class="post-item">
+                                    <a href="https://cmkxcs.github.io/post" target="_blank">
+                                        <span class="post-title">💪</span>
+                                        <span class="post-day">2019-11-01</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="https://cmkxcs.github.io/post/ru-he-geng-you-xiu" target="_blank">
+                                        <span class="post-title">如何更优秀</span>
+                                        <span class="post-day">2019-10-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang" target="_blank">
+                                        <span class="post-title">叫醒我的不是闹钟，是梦想</span>
+                                        <span class="post-day">2019-10-28</span>
+                                    </a>
+                                </li>
+                                
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+</footer>
 
-hljs.initHighlightingOnLoad()
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+<!-- jQuery -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://cmkxcs.github.io/media/scripts/_vendors/md5.min.js"></script>
 
+<script type="application/javascript">
+    hljs.initHighlightingOnLoad();
 </script>
 
 
 
 
-    </div>
-  </body>
+</body>
 </html>
