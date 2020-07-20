@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmkxcs.github.io</id>
     <title>小崔小破站</title>
-    <updated>2020-07-20T02:42:51.333Z</updated>
+    <updated>2020-07-20T02:59:53.380Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmkxcs.github.io"/>
     <link rel="self" href="https://cmkxcs.github.io/atom.xml"/>
@@ -30,5 +30,12 @@
         <link href="https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang/">
         </link>
         <updated>2019-10-28T03:47:03.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一篇就先记录王者好友唐阿姨的故事]]></title>
+        <id>https://cmkxcs.github.io/post/life/</id>
+        <link href="https://cmkxcs.github.io/post/life/">
+        </link>
+        <updated>2019-10-25T12:33:54.000Z</updated>
     </entry>
 </feed>
