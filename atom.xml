@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmkxcs.github.io</id>
     <title>小崔小破站</title>
-    <updated>2020-01-13T12:01:49.264Z</updated>
+    <updated>2020-07-20T02:41:02.638Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmkxcs.github.io"/>
     <link rel="self" href="https://cmkxcs.github.io/atom.xml"/>
@@ -11,16 +11,23 @@
     <icon>https://cmkxcs.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小崔小破站</rights>
     <entry>
+        <title type="html"><![CDATA[你知道的越多，你不知道的越多！]]></title>
+        <id>https://cmkxcs.github.io/post/ni-zhi-dao-de-yue-duo-ni-bu-zhi-dao-de-yue-duo/</id>
+        <link href="https://cmkxcs.github.io/post/ni-zhi-dao-de-yue-duo-ni-bu-zhi-dao-de-yue-duo/">
+        </link>
+        <updated>2020-07-20T02:34:38.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[如何更优秀]]></title>
-        <id>https://cmkxcs.github.io/post/ru-he-geng-you-xiu</id>
-        <link href="https://cmkxcs.github.io/post/ru-he-geng-you-xiu">
+        <id>https://cmkxcs.github.io/post/ru-he-geng-you-xiu/</id>
+        <link href="https://cmkxcs.github.io/post/ru-he-geng-you-xiu/">
         </link>
         <updated>2019-10-30T09:43:28.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[叫醒我的不是闹钟，是梦想]]></title>
-        <id>https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang</id>
-        <link href="https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang">
+        <id>https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang/</id>
+        <link href="https://cmkxcs.github.io/post/jiao-xing-wo-de-bu-shi-nao-zhong-shi-meng-xiang/">
         </link>
         <updated>2019-10-28T03:47:03.000Z</updated>
     </entry>
